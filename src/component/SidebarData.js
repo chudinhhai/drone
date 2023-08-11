@@ -12,20 +12,20 @@ export const SidebarData = [
     },
     {
         title: "Drone Management",
-        path: "/droneManager",
-        icon: <AiIcon.AiFillHome/>,
+        path: "/drone",
+        icon: <AiIcon.AiFillBug/>,
         cName: "nav-text"
     },
     {
         title: "Package Management",
-        path: "/packageManager",
-        icon: <AiIcon.AiFillHome/>,
+        path: "/package",
+        icon: <AiIcon.AiFillDropboxCircle/>,
         cName: "nav-text"
     },
     {
-        title: "Home",
-        path: "/packageManager",
-        icon: <AiIcon.AiFillHome/>,
+        title: "Map",
+        path: "/map",
+        icon: <AiIcon.AiFillCompass/>,
         cName: "nav-text"
     },
 ]
