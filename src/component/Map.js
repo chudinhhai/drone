@@ -35,7 +35,7 @@ const Map = ({ pinLocations }) => {
         const pinLocation = new window.Microsoft.Maps.Location(location.lat, location.lng);
         const pin = new window.Microsoft.Maps.Pushpin(pinLocation, {
           color: location.color,
-          title: location.title
+          title: location.title,
         });
         
         entities.push(pin);
@@ -46,7 +46,7 @@ const Map = ({ pinLocations }) => {
           new window.Microsoft.Maps.Location(pinLocations[1].lat, pinLocations[1].lng),
         ];
         const line = new window.Microsoft.Maps.Polyline(lineCoordinates, {
-          strokeColor: 'blue', // Color of the line
+          strokeColor: 'red', // Color of the line
           strokeThickness: 5,   // Thickness of the line
         });
         lines.push(line);
