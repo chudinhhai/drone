@@ -38,6 +38,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  border-bottom: 1px solid black;
 }
 
 .menu-bars {
@@ -117,23 +118,33 @@
 span {
   margin-left: 16px;
 }
-
-.box-buttons {
-  margin: 5px;
-  padding: 8px 16px 8px 16px;
+.paper {
+  display: flex;
+  height: 100%;
   width: 100%;
-  border: 1px solid rgb(235, 227, 227);
+  
+}
+.box-buttons {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  min-height: 40vh;
+  height: auto;
+  
+  /* border: 1px solid rgb(235, 227, 227); */
 }
 
 .button-all {
   width: 40px;
+  color: #2f4050;
 }
 .button-finished {
   width: 80px;
 }
 .search-bar {
   width: 95%;
-  height: 30px;
+  height: 10px;
 }
 
 .table-button {
